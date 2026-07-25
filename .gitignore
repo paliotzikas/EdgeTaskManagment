@@ -21,7 +21,7 @@ Desktop.ini
 # ----------------------------
 bin
 sim_results
-output
+#output
 
 # ----------------------------
 # IDE / Editor Settings

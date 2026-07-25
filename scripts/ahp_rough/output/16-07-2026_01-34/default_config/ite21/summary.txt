@@ -1,0 +1,24 @@
+AHP + Rough Sets Queue Scenario
+offloading_policy=AHP_ROUGH
+offload_destination_policy=LEAST_QUEUE
+threshold_mode=ADAPTIVE_RATE
+threshold_multiplier=1.2
+effective_seed=21000105
+simulation_time=600.0
+nodes=5
+high_arrival_rate_threshold=3.0
+offload_fraction=0.4
+max_offloads_per_event=10
+generated_tasks=6734
+completed_tasks=456
+delayed_tasks=121
+offloaded_tasks=496
+received_offloaded_tasks=496
+completed_offloaded_tasks=64
+node_0_waiting_tasks=635
+node_1_waiting_tasks=777
+node_2_waiting_tasks=1041
+node_3_waiting_tasks=1580
+node_4_waiting_tasks=2240
+total_waiting_tasks=6273
+queue_imbalance=1605

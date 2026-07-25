@@ -1,0 +1,24 @@
+AHP + Rough Sets Queue Scenario
+offloading_policy=FIFO
+offload_destination_policy=DROP
+threshold_mode=FIXED
+threshold_multiplier=1.0
+effective_seed=28000126
+simulation_time=600.0
+nodes=5
+high_arrival_rate_threshold=3.0
+offload_fraction=0.4
+max_offloads_per_event=5
+generated_tasks=6859
+completed_tasks=478
+delayed_tasks=112
+offloaded_tasks=261
+received_offloaded_tasks=0
+completed_offloaded_tasks=0
+node_0_waiting_tasks=377
+node_1_waiting_tasks=723
+node_2_waiting_tasks=1085
+node_3_waiting_tasks=1692
+node_4_waiting_tasks=2238
+total_waiting_tasks=6115
+queue_imbalance=1861

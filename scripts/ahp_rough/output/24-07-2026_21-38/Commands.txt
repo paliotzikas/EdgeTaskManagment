@@ -1,0 +1,14 @@
+Open Git-Bash
+-------------------
+"C:\Program Files\Git\git-bash.exe"
+
+GitBash (path in ahp-rough)
+-------------------
+./compile.sh
+./run_scenarios.sh 4 50
+
+powershell
+-----------
+python analyze_run.py output/24-07-2026_21-38
+
+& "C:\Program Files\Polyspace\R2021a\bin\matlab.exe" -nosplash -nodesktop -batch "cd('.\matlab'); plotAllScenarios('24-07-2026_21-38', 50); plotComparison('24-07-2026_21-38');"
