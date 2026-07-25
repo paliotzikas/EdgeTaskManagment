@@ -61,9 +61,6 @@ scripts/ahp_rough/
 ├── analyze_run.py                  # συγκεντρωτική ανάλυση
 └── matlab/                         # γραφήματα και συγκρίσεις
 
-doc/Write/
-├── AHP_ROUGH_CODE_ANALYSIS_GR.md
-└── AHP_ROUGH_APPENDIX_CODE_SNIPPETS_GR.md
 ```
 
 ## Προαπαιτούμενα
@@ -143,8 +140,6 @@ scripts στο `scripts/ahp_rough/matlab/` δημιουργούν γραφήμα
 
 ## Πρόσθετη τεκμηρίωση
 
-- [Αναλυτική τεχνική περιγραφή](doc/Write/AHP_ROUGH_CODE_ANALYSIS_GR.md)
-- [Επιλεγμένες functions για το παράρτημα](doc/Write/AHP_ROUGH_APPENDIX_CODE_SNIPPETS_GR.md)
 - [Τεκμηρίωση της εφαρμογής](src/edu/boun/edgecloudsim/applications/ahp_rough/README.md)
 
 ## Άδεια και προέλευση
