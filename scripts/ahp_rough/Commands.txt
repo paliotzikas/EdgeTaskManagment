@@ -1,0 +1,48 @@
+Open Git-Bash
+-------------------
+"C:\Program Files\Git\git-bash.exe"
+
+Compile (in git-bash)
+---------------------
+./compile.sh
+
+Run Scenario (in git-bash)
+--------------------------
+./run_scenarios.sh 4 50
+./run_scenarios.sh 4 50 simulation_proactive.list
+
+Run python script to create comparison folder in output
+--------------------------------------------------------
+python analyze_run.py output/<simulation_id>
+
+Run Matlab plotAll function for all iterations (Powershell)
+-------------------------------------------------------
+--plotAll
+-------
+	& "C:\Program Files\Polyspace\R2021a\bin\matlab.exe" -nosplash -nodesktop -batch "cd('.\matlab'); for i=1:50, plotAll('../output/<SIMULATION_ID>', i); end"
+
+--plotAllScenarios | Multi-offloading policies
+-----------------------------------------------
+	& "C:\Program Files\Polyspace\R2021a\bin\matlab.exe" -nosplash -nodesktop -batch "cd('.\matlab'); plotAllScenarios('<SIMULATION_ID>', 20);"
+	--other & "C:\Program Files\Polyspace\R2021a\bin\matlab.exe" -nosplash -nodesktop -batch "cd('.\matlab'); plotAllScenarios('../output/<SIMULATION_ID>', 20);"
+
+--plotComparison
+------------------	
+	& "C:\Program Files\Polyspace\R2021a\bin\matlab.exe" -nosplash -nodesktop -batch "cd('.\matlab'); plotComparison('<SIMULATION_ID>');"
+
+--plotAllScenarios and plotComparison
+-------------------------------------
+	& "C:\Program Files\Polyspace\R2021a\bin\matlab.exe" -nosplash -nodesktop -batch "cd('.\matlab'); plotAllScenarios('<SIMULATION_ID>', 50); plotComparison('<SIMULATION_ID>');"
+
+--plotSensitivityMaxOffloads | max_offloads_per_event
+-------------------------------------------------------
+	& "C:\Program Files\Polyspace\R2021a\bin\matlab.exe" -nosplash -nodesktop -batch "cd('.\matlab'); plotSensitivityMaxOffloads('<SIMULATION_ID>');"
+
+--plotSensitivityAdaptiveThreshold | threshold_multiplier
+---------------------------------------------------------
+	& "C:\Program Files\Polyspace\R2021a\bin\matlab.exe" -nosplash -nodesktop -batch "cd('.\matlab'); plotSensitivityAdaptiveThreshold('<SIMULATION_ID>');"
+
+--plotDestinationComparison | offload_destination_policy = LEAST_QUEUE
+----------------------------------------------------------------------
+	& "C:\Program Files\Polyspace\R2021a\bin\matlab.exe" -nosplash -nodesktop -batch "cd('.\matlab'); plotDestinationComparison('<SIMULATION_ID>');"
+

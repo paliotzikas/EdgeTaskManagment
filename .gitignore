@@ -1,0 +1,102 @@
+<<<<<<< HEAD
+# ----------------------------
+# OS & System Files
+# ----------------------------
+# macOS
+.DS_Store*
+Icon?
+._*
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Linux
+.directory
+*~
+
+# ----------------------------
+# Build / Output folders
+# ----------------------------
+bin
+sim_results
+output
+
+# ----------------------------
+# IDE / Editor Settings
+# ----------------------------
+# Eclipse
+.settings
+.classpath
+.project
+
+# IntelliJ IDEA
+.idea
+*.iml
+out
+gen
+
+# VS Code
+.vscode/
+
+# ----------------------------
+# Python Specific
+# ----------------------------
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.env
+.venv
+env/
+venv/
+ENV/
+
+# Distribution / Packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Unit test / coverage reports
+.pytest_cache/
+.coverage
+htmlcov/
+nosetests.xml
+coverage.xml
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# Logs / temp files
+*.log
+*.tmp
+*.bak
+=======
+# Compiled class file
+*.class
+
+# Log file
+*.log
+
+# BlueJ files
+*.ctxt
+
+# Mobile Tools for Java (J2ME)
+.mtj.tmp/
+
+# Package Files #
+*.jar
+*.war
+*.nar
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
+hs_err_pid*
+replay_pid*
+>>>>>>> 5a557590430b15325d80d230a047ecd0e286ee26
