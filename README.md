@@ -1,4 +1,4 @@
-# Proactive AHP–Rough Sets Edge Task Management
+# A Proactive, Intelligent Mechanism for Tasks Management at the Edge
 
 Υλοποίηση της πτυχιακής εργασίας «Ένας Προδραστικός, Ευφυής Μηχανισμός για τη
 Διαχείριση Εργασιών στις Παρυφές του Δικτύου».
